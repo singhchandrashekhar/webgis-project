@@ -1,0 +1,23 @@
+# GIS temp & cache
+*.aux.xml
+*.qgd
+*.lock
+*.tmp
+
+# Raster & LiDAR (use Git LFS instead)
+*.tif
+*.img
+*.las
+*.laz
+
+# Databases
+*.gpkg-wal
+*.sqlite
+*.sqlite-wal
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
